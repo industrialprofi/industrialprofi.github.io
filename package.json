@@ -1,0 +1,16 @@
+{
+  "name": "industrial-profi-site",
+  "version": "1.0.0",
+  "description": "Corporate industrial automation education landing page",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss -i ./src/input.css -o ./assets/css/style.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./assets/css/style.css"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  },
+  "dependencies": {
+    "flowbite": "^2.2.0"
+  }
+}
