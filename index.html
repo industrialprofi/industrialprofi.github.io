@@ -5,204 +5,528 @@ description: "Профессиональное обучение промышле
 ---
 
 <!-- Hero Section -->
-<section class="bg-gradient-to-br from-industrial-50 to-industrial-100 section-padding">
-    <div class="container-custom">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div class="space-y-6">
-                <div class="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-accent-100 text-accent-800">
-                    <svg class="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-                    </svg>
-                    Лидер в области обучения автоматизации
-                </div>
-                
-                <h1 class="text-4xl lg:text-6xl font-bold text-industrial-900 leading-tight">
-                    Промышленная <span class="text-accent-600">Автоматизация</span> и ПЛК
-                </h1>
-                
-                <p class="text-xl text-industrial-600 leading-relaxed">
-                    Профессиональное обучение инженеров и технических специалистов. 
-                    Практические курсы по программированию ПЛК, SCADA системам и промышленным сетям.
-                </p>
-                
-                <div class="flex flex-col sm:flex-row gap-4">
-                    <a href="#courses" class="btn-primary inline-flex items-center justify-center">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/>
-                        </svg>
-                        Выбрать курс
-                    </a>
-                    <a href="#contact" class="btn-secondary inline-flex items-center justify-center">
-                        <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
-                        </svg>
-                        Консультация
-                    </a>
-                </div>
-                
-                <div class="flex items-center space-x-8 pt-4">
-                    <div class="text-center">
-                        <div class="text-2xl font-bold text-industrial-900" data-counter="500">0</div>
-                        <div class="text-sm text-industrial-600">Выпускников</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-2xl font-bold text-industrial-900" data-counter="15">0</div>
-                        <div class="text-sm text-industrial-600">Лет опыта</div>
-                    </div>
-                    <div class="text-center">
-                        <div class="text-2xl font-bold text-industrial-900" data-counter="25">0</div>
-                        <div class="text-sm text-industrial-600">Курсов</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="relative">
-                <div class="bg-white rounded-2xl shadow-2xl p-8 relative z-10">
-                    <div class="space-y-4">
-                        <div class="flex items-center space-x-3">
-                            <div class="w-12 h-12 bg-accent-600 rounded-lg flex items-center justify-center">
-                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-industrial-900">Программирование ПЛК</h3>
-                                <p class="text-sm text-industrial-600">Siemens, Allen-Bradley, Schneider</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-center space-x-3">
-                            <div class="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center">
-                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-industrial-900">SCADA системы</h3>
-                                <p class="text-sm text-industrial-600">WinCC, InTouch, Citect</p>
-                            </div>
-                        </div>
-                        
-                        <div class="flex items-center space-x-3">
-                            <div class="w-12 h-12 bg-green-600 rounded-lg flex items-center justify-center">
-                                <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                    <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/>
-                                </svg>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-industrial-900">Промышленные сети</h3>
-                                <p class="text-sm text-industrial-600">Profibus, Ethernet/IP, Modbus</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="absolute -top-4 -right-4 w-24 h-24 bg-accent-200 rounded-full opacity-20 animate-pulse-slow"></div>
-                <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-blue-200 rounded-full opacity-20 animate-pulse-slow" style="animation-delay: 1s;"></div>
-            </div>
-        </div>
-    </div>
+<section class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-16 text-center lg:pt-32">
+  <header>
+    <h1 class="mx-auto max-w-4xl font-display text-5xl font-bold tracking-tight text-gray-900 sm:text-7xl dark:text-white">
+      <span class="relative whitespace-nowrap text-accent-600">
+        <svg aria-hidden="true"
+             viewBox="0 0 418 42"
+             class="absolute top-2/3 left-0 h-[0.58em] w-full fill-accent-300/70"
+             preserveAspectRatio="none">
+          <path d="M203.371.916c-26.013-2.078-76.686 1.963-124.73 9.946L67.3 12.749C35.421 18.062 18.2 21.766 6.004 25.934 1.244 27.561.828 27.778.874 28.61c.07 1.214.828 1.121 9.595-1.176 9.072-2.377 17.15-3.92 39.246-7.496C123.565 7.986 157.869 4.492 195.942 5.046c7.461.108 19.25 1.696 19.17 2.582-.107 1.183-7.874 4.31-25.75 10.366-21.992 7.45-35.43 12.534-36.701 13.884-2.173 2.308-.202 4.407 4.442 4.734 2.654.187 3.263.157 15.593-.78 35.401-2.686 57.944-3.488 88.365-3.143 46.327.526 75.721 2.23 130.788 7.584 19.787 1.924 20.814 1.98 24.557 1.332l.066-.011c1.201-.203 1.53-1.825.399-2.335-2.911-1.31-4.893-1.604-22.048-3.261-57.509-5.556-87.871-7.36-132.059-7.842-23.239-.254-33.617-.116-50.627.674-11.629.54-42.371 2.494-46.696 2.967-2.359.259 8.133-3.625 26.504-9.81 23.239-7.825 27.934-10.149 28.304-14.005.417-4.348-3.529-6-16.878-7.066Z"></path>
+        </svg>
+        <span class="relative">Промышленная Автоматизация</span>
+      </span>
+      и программирование ПЛК для вас и вашей команды.
+    </h1>
+
+    <h2 class="mx-auto mt-6 max-w-2xl font-bold text-xl leading-6 tracking-wide text-gray-700 dark:text-gray-300">
+      <span class="text-accent-600">Освойте мастерство.</span> Присоединяйтесь к рядам лучших инженеров по автоматизации.
+    </h2>
+  </header>
+
+  <p class="mt-10 flex items-center justify-center gap-x-6">
+    <a class="group inline-flex items-center justify-center rounded-full py-2 px-4 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 text-white hover:text-gray-900 dark:text-accent-600 dark:hover:text-white bg-accent-600 hover:bg-gray-200 dark:bg-gray-200 dark:hover:bg-gray-700 active:bg-gray-800 active:text-gray-300 focus-visible:outline-gray-900" href="#courses">
+      Начать обучение
+      <svg xmlns="http://www.w3.org/2000/svg"
+           viewBox="0 0 20 20" fill="currentColor"
+           class="group-hover:translate-x-1.5 transition-all w-5 h-5">
+        <path fill-rule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clip-rule="evenodd" />
+      </svg>
+    </a>
+    <a class="group inline-flex ring-1 items-center justify-center rounded-full py-2 px-4 text-sm focus:outline-none ring-gray-200 text-gray-700 dark:text-gray-200 hover:text-gray-900 hover:ring-gray-300 active:bg-gray-100 active:text-gray-600 focus-visible:outline-accent-600 focus-visible:ring-gray-300" href="#courses">
+      <svg aria-hidden="true" class="h-3 w-3 flex-none fill-accent-600 group-active:fill-current">
+        <path d="m9.997 6.91-7.583 3.447A1 1 0 0 1 1 9.447V2.553a1 1 0 0 1 1.414-.91L9.997 5.09c.782.355.782 1.465 0 1.82Z" />
+      </svg>
+      <span class="ml-3">Изучить курсы</span>
+    </a>
+  </p>
 </section>
 
-<!-- Contact Section -->
-<section id="contact" class="section-padding bg-industrial-900 text-white">
-    <div class="container-custom">
-        <div class="text-center mb-16">
-            <h2 class="text-3xl lg:text-4xl font-bold mb-4">
-                Свяжитесь с <span class="text-accent-400">нами</span>
-            </h2>
-            <p class="text-xl text-industrial-300 max-w-3xl mx-auto">
-                Получите бесплатную консультацию по выбору программы обучения
-            </p>
+<!-- Learn Section -->
+<section class="bg-white dark:bg-gray-800 py-24">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <div class="mx-auto max-w-2xl lg:max-w-none">
+      <header class="text-center">
+        <h2 class="text-accent-600 text-3xl font-bold tracking-tight sm:text-4xl">
+          Изучайте Промышленную Автоматизацию
+        </h2>
+
+        <h3 class="mt-4 font-normal text-lg leading-8 text-gray-600 dark:text-gray-200">
+          Присоединяйтесь к 2,500+ инженерам, изучающим, создающим и
+          внедряющим системы автоматизации для своих проектов, продуктов и предприятий.
+        </h3>
+      </header>
+
+      <div class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+        <div class="bg-gray-100 dark:bg-gray-700 p-8 hover:opacity-80 transition-opacity">
+          <div class="w-full h-32 bg-gradient-to-br from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+            </svg>
+          </div>
+          <h4 class="text-sm font-semibold text-gray-900 dark:text-white">Программирование ПЛК</h4>
         </div>
         
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-            <div class="space-y-8">
-                <div class="flex items-start space-x-4">
-                    <div class="w-12 h-12 bg-accent-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-semibold mb-2">Телефон</h3>
-                        <p class="text-industrial-300">{{ site.phone }}</p>
-                        <p class="text-sm text-industrial-400">Пн-Пт: 9:00-18:00</p>
-                    </div>
-                </div>
-                
-                <div class="flex items-start space-x-4">
-                    <div class="w-12 h-12 bg-accent-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
-                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-semibold mb-2">Email</h3>
-                        <p class="text-industrial-300">{{ site.email }}</p>
-                        <p class="text-sm text-industrial-400">Ответим в течение 24 часов</p>
-                    </div>
-                </div>
-                
-                <div class="flex items-start space-x-4">
-                    <div class="w-12 h-12 bg-accent-600 rounded-lg flex items-center justify-center flex-shrink-0">
-                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                            <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
-                        </svg>
-                    </div>
-                    <div>
-                        <h3 class="text-lg font-semibold mb-2">Адрес</h3>
-                        <p class="text-industrial-300">{{ site.location }}</p>
-                        <p class="text-sm text-industrial-400">Учебный центр и офис</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="bg-white rounded-2xl p-8">
-                <form id="contact-form" class="space-y-6">
-                    <div>
-                        <label for="name" class="block text-sm font-medium text-industrial-900 mb-2">Имя *</label>
-                        <input type="text" id="name" name="name" required 
-                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 text-industrial-900">
-                    </div>
-                    
-                    <div>
-                        <label for="email" class="block text-sm font-medium text-industrial-900 mb-2">Email *</label>
-                        <input type="email" id="email" name="email" required 
-                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 text-industrial-900">
-                    </div>
-                    
-                    <div>
-                        <label for="phone" class="block text-sm font-medium text-industrial-900 mb-2">Телефон</label>
-                        <input type="tel" id="phone" name="phone" 
-                               class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 text-industrial-900">
-                    </div>
-                    
-                    <div>
-                        <label for="course" class="block text-sm font-medium text-industrial-900 mb-2">Интересующий курс</label>
-                        <select id="course" name="course" 
-                                class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 text-industrial-900">
-                            <option value="">Выберите курс</option>
-                            <option value="plc-basics">Основы программирования ПЛК</option>
-                            <option value="scada">SCADA системы</option>
-                            <option value="networks">Промышленные сети</option>
-                            <option value="advanced-plc">Продвинутое программирование ПЛК</option>
-                            <option value="consultation">Консультация</option>
-                        </select>
-                    </div>
-                    
-                    <div>
-                        <label for="message" class="block text-sm font-medium text-industrial-900 mb-2">Сообщение</label>
-                        <textarea id="message" name="message" rows="4" 
-                                  class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-accent-500 focus:border-accent-500 text-industrial-900"
-                                  placeholder="Расскажите о ваших целях обучения..."></textarea>
-                    </div>
-                    
-                    <button type="submit" class="w-full btn-primary">
-                        Отправить заявку
-                    </button>
-                </form>
-            </div>
+        <div class="bg-gray-100 dark:bg-gray-700 p-8 hover:opacity-80 transition-opacity">
+          <div class="w-full h-32 bg-gradient-to-br from-green-500 to-green-600 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+            </svg>
+          </div>
+          <h4 class="text-sm font-semibold text-gray-900 dark:text-white">SCADA Системы</h4>
         </div>
+        
+        <div class="bg-gray-100 dark:bg-gray-700 p-8 hover:opacity-80 transition-opacity">
+          <div class="w-full h-32 bg-gradient-to-br from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M3 7v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2h-1V5a3 3 0 00-3-3H9a3 3 0 00-3 3v2H5a2 2 0 00-2 2z"/>
+            </svg>
+          </div>
+          <h4 class="text-sm font-semibold text-gray-900 dark:text-white">Промышленные Сети</h4>
+        </div>
+        
+        <div class="bg-gray-100 dark:bg-gray-700 p-8 hover:opacity-80 transition-opacity">
+          <div class="w-full h-32 bg-gradient-to-br from-red-500 to-red-600 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v3h8v-3z"/>
+            </svg>
+          </div>
+          <h4 class="text-sm font-semibold text-gray-900 dark:text-white">HMI Интерфейсы</h4>
+        </div>
+        
+        <div class="bg-gray-100 dark:bg-gray-700 p-8 hover:opacity-80 transition-opacity">
+          <div class="w-full h-32 bg-gradient-to-br from-yellow-500 to-yellow-600 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z"/>
+              <path fill-rule="evenodd" d="M4 5a2 2 0 012-2v1a1 1 0 102 0V3a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm2.5 5a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <h4 class="text-sm font-semibold text-gray-900 dark:text-white">Датчики и Приводы</h4>
+        </div>
+        
+        <div class="bg-gray-100 dark:bg-gray-700 p-8 hover:opacity-80 transition-opacity">
+          <div class="w-full h-32 bg-gradient-to-br from-indigo-500 to-indigo-600 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+            </svg>
+          </div>
+          <h4 class="text-sm font-semibold text-gray-900 dark:text-white">Промышленные Протоколы</h4>
+        </div>
+        
+        <div class="bg-gray-100 dark:bg-gray-700 p-8 hover:opacity-80 transition-opacity">
+          <div class="w-full h-32 bg-gradient-to-br from-pink-500 to-pink-600 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <h4 class="text-sm font-semibold text-gray-900 dark:text-white">Кибербезопасность</h4>
+        </div>
+        
+        <div class="bg-gray-100 dark:bg-gray-700 p-8 hover:opacity-80 transition-opacity">
+          <div class="w-full h-32 bg-gradient-to-br from-teal-500 to-teal-600 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-12 h-12 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"/>
+            </svg>
+          </div>
+          <h4 class="text-sm font-semibold text-gray-900 dark:text-white">Диагностика и Обслуживание</h4>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
+
+<!-- Statistics Section -->
+<section class="bg-white dark:bg-gray-900 py-16">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <header class="text-center">
+      <h2 class="text-3xl font-bold tracking-tight text-accent-600 sm:text-4xl">
+        Нам доверяют инженеры по всему миру
+      </h2>
+
+      <p class="mt-4 text-lg leading-8 text-gray-600 dark:text-gray-200">
+        Мы здесь, чтобы помочь вам развить карьеру инженера по автоматизации.
+      </p>
+    </header>
+
+    <dl class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4">
+      <div class="flex flex-col bg-gray-400/5 p-8">
+        <dt class="text-sm font-semibold leading-6 text-gray-600 dark:text-white">
+          Курсов
+        </dt>
+
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-200">
+          45
+        </dd>
+      </div>
+
+      <div class="flex flex-col bg-gray-400/5 p-8">
+        <dt class="text-sm font-semibold leading-6 text-gray-600 dark:text-white">
+          Часов контента
+        </dt>
+
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-200">
+          200+
+        </dd>
+      </div>
+
+      <div class="flex flex-col bg-gray-400/5 p-8">
+        <dt class="text-sm font-semibold leading-6 text-gray-600 dark:text-white">
+          Инженеров обучено
+        </dt>
+
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-200">
+          2,500+
+        </dd>
+      </div>
+
+      <div class="flex flex-col bg-gray-400/5 p-8">
+        <dt class="text-sm font-semibold leading-6 text-gray-600 dark:text-white">
+          Средняя зарплата
+        </dt>
+
+        <dd class="order-first text-3xl font-semibold tracking-tight text-gray-900 dark:text-gray-200">
+          ₽180,000
+        </dd>
+      </div>
+    </dl>
+  </div>
+</section>
+<!-- Features Section -->
+<section class="py-16">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <header class="mx-auto max-w-4xl lg:text-center">
+      <h2 class="text-base font-semibold leading-7 text-accent-600">
+        Изучайте быстрее
+      </h2>
+
+      <h3 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+        Изучайте. Создавайте. Внедряйте.
+      </h3>
+
+      <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-200">
+        Мы поможем вам во всех аспектах изучения промышленной автоматизации. Изучайте с нашими курсами,
+        создавайте проекты автоматизации с нашими шаблонами, и внедряйте решения в производство.
+      </p>
+    </header>
+
+    <div class="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">
+      <dl class="grid max-w-xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-3">
+        <div class="flex flex-col">
+          <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-white">
+            <div class="h-10 w-10 bg-accent-600 rounded-lg flex items-center justify-center">
+              <svg class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+              </svg>
+            </div>
+            <span>INDUSTRIAL PROFI</span>
+          </dt>
+
+          <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+            <p class="flex-auto dark:text-gray-200">
+              Независимо от того, новичок ли вы в промышленной автоматизации или опытный инженер, который хочет быть в курсе последних тенденций,
+              мы поможем вам. Мы всегда обучаем новейшим и лучшим техникам.
+            </p>
+
+            <p class="mt-6">
+              <a class="inline-flex items-center rounded-md bg-accent-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-accent-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent-600" href="#courses">
+                Попробовать INDUSTRIAL PROFI <span class="ml-2" aria-hidden="true">→</span>
+              </a>
+            </p>
+          </dd>
+        </div>
+
+        <div class="flex flex-col">
+          <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-white">
+            <div class="h-10 w-10 bg-blue-600 rounded-lg flex items-center justify-center">
+              <svg class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+              </svg>
+            </div>
+            <span>Шаблоны Автоматизации</span>
+          </dt>
+
+          <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+            <p class="flex-auto dark:text-gray-200">
+              Готовые шаблоны для промышленной автоматизации - лучший способ начать ваш проект.
+              Они использовались нашими клиентами для создания успешных систем автоматизации.
+            </p>
+
+            <p class="mt-6">
+              <a target="_blank" class="inline-flex items-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600" href="#templates">
+                Попробовать Шаблоны <span class="ml-2" aria-hidden="true">→</span>
+              </a>
+            </p>
+          </dd>
+        </div>
+
+        <div class="flex flex-col">
+          <dt class="flex items-center gap-x-3 text-base font-semibold leading-7 text-gray-900 dark:text-white">
+            <div class="h-10 w-10 bg-green-600 rounded-lg flex items-center justify-center">
+              <svg class="h-6 w-6 text-white" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M3 7v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2h-1V5a3 3 0 00-3-3H9a3 3 0 00-3 3v2H5a2 2 0 00-2 2z"/>
+              </svg>
+            </div>
+            <span>Консультации по Внедрению</span>
+          </dt>
+
+          <dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-600">
+            <p class="flex-auto dark:text-gray-200">
+              Профессиональные консультации по внедрению систем автоматизации, разработанные для минимизации затрат.
+              Мы настраиваем и внедряем системы автоматизации на ваших объектах.
+            </p>
+
+            <p class="mt-6">
+              <a target="_blank" class="inline-flex items-center rounded-md bg-green-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600" href="#consultation">
+                Получить Консультацию <span class="ml-2" aria-hidden="true">→</span>
+              </a>
+            </p>
+          </dd>
+        </div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- Courses Section -->
+<section class="py-16">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <header class="lg:text-center">
+      <h3 class="text-base font-semibold leading-7 text-accent-600">
+        Углубленный контент
+      </h3>
+
+      <h2 class="text-3xl font-bold tracking-tight sm:text-4xl text-gray-900 dark:text-white">
+        Подробные курсы по Промышленной Автоматизации
+      </h2>
+
+      <p class="mt-6 text-lg leading-8 text-gray-600 dark:text-gray-400">
+        Глубокое погружение в специфические темы помимо еженедельных видеоуроков.
+      </p>
+    </header>
+
+    <div class="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:max-w-7xl lg:px-8 mt-16">
+      <ol role="list"
+          class="list-none -mx-3 grid grid-cols-1 gap-y-10 lg:grid-cols-3 lg:text-center xl:-mx-12 xl:divide-x xl:divide-slate-400/20">
+        <li>
+          <a class="grid auto-rows-min grid-cols-1 items-center gap-8 py-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12 hover:bg-white dark:hover:bg-gray-800 rounded-lg transition-colors" href="#plc-basics">
+            <div class="relative h-48 overflow-hidden rounded-2xl shadow-lg sm:h-60 lg:h-40">
+              <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-blue-500 to-blue-600">
+                <div class="text-center text-white">
+                  <svg class="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"/>
+                  </svg>
+                  <h4 class="text-lg font-semibold">Основы ПЛК</h4>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-accent-600 text-base font-medium tracking-tight">
+                Программирование ПЛК с Нуля
+              </h3>
+
+              <p class="mt-2 text-sm text-slate-600 dark:text-gray-200">
+                Изучите основы программирования программируемых логических контроллеров.
+                От базовых концепций до создания полноценных проектов автоматизации.
+              </p>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a class="grid auto-rows-min grid-cols-1 items-center gap-8 py-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12 hover:bg-white dark:hover:bg-gray-800 rounded-lg transition-colors" href="#scada-systems">
+            <div class="relative h-48 overflow-hidden rounded-2xl shadow-lg sm:h-60 lg:h-40">
+              <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-green-500 to-green-600">
+                <div class="text-center text-white">
+                  <svg class="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"/>
+                  </svg>
+                  <h4 class="text-lg font-semibold">SCADA</h4>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-accent-600 text-base font-medium tracking-tight">
+                SCADA Системы
+              </h3>
+
+              <p class="mt-2 text-sm text-slate-600 dark:text-gray-200">
+                Освойте создание систем диспетчерского управления и сбора данных.
+                WinCC, InTouch, Citect и другие популярные SCADA платформы.
+              </p>
+            </div>
+          </a>
+        </li>
+
+        <li>
+          <a class="grid auto-rows-min grid-cols-1 items-center gap-8 py-8 px-3 sm:grid-cols-2 sm:gap-y-10 lg:grid-cols-1 xl:px-12 hover:bg-white dark:hover:bg-gray-800 rounded-lg transition-colors" href="#industrial-networks">
+            <div class="relative h-48 overflow-hidden rounded-2xl shadow-lg sm:h-60 lg:h-40">
+              <div class="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-purple-500 to-purple-600">
+                <div class="text-center text-white">
+                  <svg class="w-16 h-16 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M3 7v10a2 2 0 002 2h10a2 2 0 002-2V9a2 2 0 00-2-2h-1V5a3 3 0 00-3-3H9a3 3 0 00-3 3v2H5a2 2 0 00-2 2z"/>
+                  </svg>
+                  <h4 class="text-lg font-semibold">Сети</h4>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 class="text-accent-600 text-base font-medium tracking-tight">
+                Промышленные Сети
+              </h3>
+
+              <p class="mt-2 text-sm text-slate-600 dark:text-gray-200">
+                Подробное руководство по интеграции промышленных протоколов связи.
+                Profibus, Ethernet/IP, Modbus и современные IoT решения.
+              </p>
+            </div>
+          </a>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="bg-white dark:bg-gray-800 py-16">
+  <div class="mx-auto max-w-7xl px-6 lg:px-8">
+    <header class="mx-auto max-w-xl text-center">
+      <h2 class="text-lg font-semibold leading-8 tracking-tight text-accent-600">
+        Отзывы
+      </h2>
+
+      <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+        Мы обучили тысячи талантливых инженеров
+      </p>
+    </header>
+
+    <section class="mx-auto mt-16 flow-root max-w-2xl sm:mt-20 lg:mx-0 lg:max-w-none">
+      <div class="-mt-8 sm:-mx-4 sm:columns-2 sm:text-[0] lg:columns-3">
+        <article class="pt-8 sm:inline-block sm:w-full sm:px-4">
+          <figure class="rounded-2xl bg-gray-50 p-8 text-sm leading-6 dark:bg-gray-900">
+            <blockquote>
+              <p>
+                "Отличные курсы по автоматизации! Очень практично и понятно объясняют сложные темы. Рекомендую всем инженерам."
+              </p>
+            </blockquote>
+
+            <figcaption class="mt-4 flex items-center gap-x-4">
+              <div class="font-semibold text-accent-600">
+                Алексей Петров
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article class="pt-8 sm:inline-block sm:w-full sm:px-4">
+          <figure class="rounded-2xl bg-gray-50 p-8 text-sm leading-6 dark:bg-gray-900">
+            <blockquote>
+              <p>
+                "Благодаря курсам INDUSTRIAL PROFI смог освоить программирование ПЛК Siemens. Теперь работаю ведущим инженером."
+              </p>
+            </blockquote>
+
+            <figcaption class="mt-4 flex items-center gap-x-4">
+              <div class="font-semibold text-accent-600">
+                Мария Сидорова
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article class="pt-8 sm:inline-block sm:w-full sm:px-4">
+          <figure class="rounded-2xl bg-gray-50 p-8 text-sm leading-6 dark:bg-gray-900">
+            <blockquote>
+              <p>
+                "Лучшие курсы по SCADA системам! Преподаватели - настоящие профессионалы с большим практическим опытом."
+              </p>
+            </blockquote>
+
+            <figcaption class="mt-4 flex items-center gap-x-4">
+              <div class="font-semibold text-accent-600">
+                Дмитрий Козлов
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article class="pt-8 sm:inline-block sm:w-full sm:px-4">
+          <figure class="rounded-2xl bg-gray-50 p-8 text-sm leading-6 dark:bg-gray-900">
+            <blockquote>
+              <p>
+                "Отличная подача материала и современный подход к обучению. Все знания сразу применил на практике."
+              </p>
+            </blockquote>
+
+            <figcaption class="mt-4 flex items-center gap-x-4">
+              <div class="font-semibold text-accent-600">
+                Елена Волкова
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article class="pt-8 sm:inline-block sm:w-full sm:px-4">
+          <figure class="rounded-2xl bg-gray-50 p-8 text-sm leading-6 dark:bg-gray-900">
+            <blockquote>
+              <p>
+                "Курсы помогли мне перейти в сферу промышленной автоматизации. Очень доволен качеством обучения!"
+              </p>
+            </blockquote>
+
+            <figcaption class="mt-4 flex items-center gap-x-4">
+              <div class="font-semibold text-accent-600">
+                Игорь Морозов
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+        
+        <article class="pt-8 sm:inline-block sm:w-full sm:px-4">
+          <figure class="rounded-2xl bg-gray-50 p-8 text-sm leading-6 dark:bg-gray-900">
+            <blockquote>
+              <p>
+                "Профессиональный подход к обучению промышленным сетям. Все объясняют четко и с примерами."
+              </p>
+            </blockquote>
+
+            <figcaption class="mt-4 flex items-center gap-x-4">
+              <div class="font-semibold text-accent-600">
+                Анна Федорова
+              </div>
+            </figcaption>
+          </figure>
+        </article>
+      </div>
+    </section>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16 px-6 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-2xl text-center">
+    <header>
+      <h2 class="text-3xl font-bold tracking-tight text-accent-600 sm:text-4xl">
+        Развивайте свою карьеру.
+      </h2>
+
+      <p class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white sm:text-4xl">
+        Начните изучение с INDUSTRIAL PROFI сегодня.
+      </p>
+    </header>
+
+    <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 dark:text-gray-200">
+      Инженеры по автоматизации зарабатывают ₽180,000/месяц в среднем и очень востребованы. Мы можем
+      помочь вам достичь этого.
+    </p>
+
+    <div class="mt-10 flex items-center justify-center gap-x-6">
+      <a class="inline-flex items-center justify-center rounded-full py-3 px-6 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 text-white bg-accent-600 hover:bg-accent-500 active:bg-accent-700 focus-visible:outline-accent-600" href="#courses">Начать обучение</a>
+      <a class="inline-flex items-center justify-center rounded-full py-3 px-6 text-sm font-semibold focus:outline-none focus-visible:outline-2 focus-visible:outline-offset-2 ring-1 ring-gray-200 text-gray-700 dark:text-gray-200 hover:text-gray-900 hover:ring-gray-300 active:bg-gray-100 active:text-gray-600 focus-visible:outline-accent-600 focus-visible:ring-gray-300" href="#courses">Узнать больше →</a>
+    </div>
+  </div>
+</section>
+
