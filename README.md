@@ -1,4 +1,4 @@
 # industrialprofi.github.io
 Site
 
-npm run build
+bundle exec jekyll serve
