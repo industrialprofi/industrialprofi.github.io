@@ -1755,6 +1755,11 @@ html {
   fill: #dc2626;
 }
 
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-1 {
   padding: 0.25rem;
 }
