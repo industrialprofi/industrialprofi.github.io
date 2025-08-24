@@ -19,15 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: IndustrialProfi - Промышленная Автоматизация
-email: info@industrialprofi.ru
+email: info@industrialprofi.com
 description: >- # this means to ignore newlines until "baseurl:"
   Курсы по промышленной автоматизации и программированию ПЛК.
   Повышение квалификации инженеров: SCADA, HMI, промышленные сети.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://industrialprofi.github.io" # the base hostname & protocol for your site
 company_name: "INDUSTRIAL PROFI"
-phone: "+7 (495) 123-45-67"
-location: "Москва, Россия"
+# phone: "+7 (495) 123-45-67"
+location: "СНГ"
 
 # Build settings
 # theme: minima  # Отключаем стандартную тему

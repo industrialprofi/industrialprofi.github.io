@@ -17,6 +17,44 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    // FAQ functionality
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', function() {
+            const faqId = this.getAttribute('data-faq');
+            const answer = document.getElementById(`faq-${faqId}`) || this.parentElement.querySelector('.faq-answer');
+            const icon = this.querySelector('.faq-icon');
+            
+            // Close all other FAQ items
+            faqQuestions.forEach(otherQuestion => {
+                if (otherQuestion !== this) {
+                    const otherId = otherQuestion.getAttribute('data-faq');
+                    const otherAnswer = document.getElementById(`faq-${otherId}`) || otherQuestion.parentElement.querySelector('.faq-answer');
+                    const otherIcon = otherQuestion.querySelector('.faq-icon');
+                    
+                    if (otherAnswer) {
+                        otherAnswer.classList.add('hidden');
+                    }
+                    if (otherIcon) {
+                        otherIcon.style.transform = 'rotate(0deg)';
+                    }
+                }
+            });
+            
+            // Toggle current FAQ item
+            if (answer) {
+                if (answer.classList.contains('hidden')) {
+                    answer.classList.remove('hidden');
+                    if (icon) icon.style.transform = 'rotate(45deg)';
+                } else {
+                    answer.classList.add('hidden');
+                    if (icon) icon.style.transform = 'rotate(0deg)';
+                }
+            }
+        });
+    });
+
     // Add scroll effect to navbar
     const navbar = document.querySelector('nav');
     let lastScrollTop = 0;
