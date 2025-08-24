@@ -10,6 +10,8 @@
     <title>{% if page.title %}{{ page.title | escape }} - {{ site.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
     
     <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/logo.png' | relative_url }}">
+    <link rel="apple-touch-icon" href="{{ '/assets/images/logo.png' | relative_url }}">
     <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
     
     <!-- Fonts -->
@@ -55,10 +57,13 @@
         <div class="container-custom">
             <div class="flex flex-wrap items-center justify-between py-4">
                 <a href="{{ '/' | relative_url }}" class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-accent-600 rounded-lg flex items-center justify-center">
-                        <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                        </svg>
+                    <div class="w-10 h-10 rounded-lg overflow-hidden">
+                        <img
+                          src="{{ '/assets/images/logo.png' | relative_url }}"
+                          alt="{{ site.company_name }} logo"
+                          class="w-10 h-10 object-cover"
+                          width="40" height="40"
+                        />
                     </div>
                     <span class="text-2xl font-bold text-industrial-900">{{ site.company_name }}</span>
                 </a>
@@ -72,10 +77,11 @@
                 
                 <div class="hidden w-full md:block md:w-auto" id="navbar-default">
                     <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
-                        <li><a href="#services" class="block py-2 px-3 text-industrial-700 hover:text-accent-600 transition-colors">Услуги</a></li>
-                        <li><a href="#about" class="block py-2 px-3 text-industrial-700 hover:text-accent-600 transition-colors">О нас</a></li>
-                        <li><a href="#courses" class="block py-2 px-3 text-industrial-700 hover:text-accent-600 transition-colors">Курсы</a></li>
-                        <li><a href="#contact" class="block py-2 px-3 text-industrial-700 hover:text-accent-600 transition-colors">Контакты</a></li>
+                        <li><a href="#courses" class="block py-2 px-3 text-industrial-700 hover:text-accent-600 transition-colors smooth-scroll">Курсы</a></li>
+                        <li><a href="#about" class="block py-2 px-3 text-industrial-700 hover:text-accent-600 transition-colors smooth-scroll">О нас</a></li>
+                        <li><a href="#mission" class="block py-2 px-3 text-industrial-700 hover:text-accent-600 transition-colors smooth-scroll">Наша миссия</a></li>
+                        <li><a href="#faq" class="block py-2 px-3 text-industrial-700 hover:text-accent-600 transition-colors smooth-scroll">FAQ</a></li>
+                        <li><a href="#contact" class="block py-2 px-3 text-industrial-700 hover:text-accent-600 transition-colors smooth-scroll">Контакты</a></li>
                     </ul>
                 </div>
             </div>
@@ -93,10 +99,13 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <div class="col-span-1 md:col-span-2">
                     <div class="flex items-center space-x-3 mb-4">
-                        <div class="w-10 h-10 bg-accent-600 rounded-lg flex items-center justify-center">
-                            <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                                <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
-                            </svg>
+                        <div class="w-10 h-10 rounded-lg overflow-hidden">
+                            <img
+                              src="{{ '/assets/images/logo.png' | relative_url }}"
+                              alt="{{ site.company_name }} logo"
+                              class="w-10 h-10 object-cover"
+                              width="40" height="40"
+                            />
                         </div>
                         <span class="text-xl font-bold">{{ site.company_name }}</span>
                     </div>
